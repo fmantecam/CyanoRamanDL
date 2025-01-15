@@ -1,9 +1,9 @@
 # CyanoRamanDL
 
-**CyanoRamanDL** is a repository associated with the paper *"Comprehensive Raman Spectroscopy Analysis for Differentiating Toxic Cyanobacteria Through Multichannel 1D-CNNs and SHAP-Based Explainability"*. This project combines Raman spectroscopy and deep learning for the classification of toxic cyanobacteria species, enabling early detection and contributing to water quality monitoring and the management of *Harmful Algal Blooms* (HABs).
-The primary objective of this project is to classify toxic cyanobacteria species such as **Dolichospermum crassum**, **Aphanizomenon sp.**, **Planktothrix agardhii**, and **Microcystis aeruginosa** using deep learning models. Additionally, it aims to enhance model interpretability through SHAP (Shapley Additive Explanations) and provide tools that facilitate both the replication of results and the extension of the analysis to new data.
+This project combines Raman spectroscopy and deep learning for the classification of toxic cyanobacteria species, enabling early detection and contributing to water quality monitoring and the management of *Harmful Algal Blooms* (HABs).
+The main objective of this project is to classify toxic cyanobacteria species such as **Dolichospermum crassum**, **Aphanizomenon sp.**, **Planktothrix agardhii**, and **Microcystis aeruginosa** using deep learning models. Additionally, it aims to enhance model interpretability through SHAP (Shapley Additive Explanations) and provide tools that facilitate both the replication of results and the extension of the analysis to new data.
 
-The repository contains the following scripts:
+This repository contains the following scripts:
 
 ### `preprocessing_raman_spectra_cyanobacteria.ipynb`
 This script provides a complete pipeline for preprocessing Raman spectra. It includes baseline correction using ALS, noise filtering with the Savitzky-Golay method, normalization and standardization of spectral intensities, and the removal of contaminated spectra or those with low signal-to-noise ratios. It produces a clean and homogeneous dataset ready for analysis.
