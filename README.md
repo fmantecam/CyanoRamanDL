@@ -1,7 +1,7 @@
 # CyanoRamanDL
 
 This project combines Raman spectroscopy and deep learning for the classification of toxic cyanobacteria species, enabling early detection and contributing to water quality monitoring and the management of *Harmful Algal Blooms* (HABs).
-The main objective of this project is to classify toxic cyanobacteria species such as **Dolichospermum crassum**, **Aphanizomenon sp.**, **Planktothrix agardhii**, and **Microcystis aeruginosa** using deep learning models. Additionally, it aims to enhance model interpretability through SHAP (Shapley Additive Explanations) and provide tools that facilitate both the replication of results and the extension of the analysis to new data.
+The main objective of this project is to classify toxic cyanobacteria species such as *Dolichospermum crassum*, *Aphanizomenon sp.*, *Planktothrix agardhii*, and *Microcystis aeruginosa* using deep learning models. Additionally, it aims to enhance model interpretability through SHAP (Shapley Additive Explanations) and provide tools that facilitate both the replication of results and the extension of the analysis to new data.
 
 This repository contains the following scripts:
 
